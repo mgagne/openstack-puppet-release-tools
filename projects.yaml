@@ -1,0 +1,468 @@
+#
+# Series: The definitions are used as template for project definitions.
+#
+
+series:
+  grizzly:
+    status: Supported
+    summary: This is the "grizzly" series.
+
+  havana:
+    status: Current Stable Release
+    summary: This is the "havana" series.
+
+  icehouse:
+    status: Current Stable Release
+    summary: This is the "icehouse" series.
+
+  juno:
+    status: Current Stable Release
+    summary: This is the "juno" series.
+
+  kilo:
+    status: Active Development
+    summary: This is the "kilo" series.
+
+  future:
+    status: Future
+    summary: This is the "future" series.
+
+
+#
+# Projects definitions
+#
+
+projects:
+  puppet-ceilometer:
+    summary: Puppet module for Ceilometer
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.0.0:
+            date_released: 2013-06-26
+          2.1.0:
+            date_released: 2013-08-08
+          2.2.0-rc1:
+            date_released: 2013-10-08
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0-rc3:
+            date_released: 2014-01-17
+          3.0.0:
+            date_released: 2014-01-17
+          3.1.0:
+            date_released: 2014-02-14
+          3.1.1:
+            date_released: 2014-03-26
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-cinder:
+    summary: Puppet module for Cinder
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.0.0:
+            date_released: 2013-06-26
+          2.1.0:
+            date_released: 2013-08-08
+          2.2.0-rc1:
+            date_released: 2013-10-08
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0:
+            date_released: 2014-01-14
+          3.1.0:
+            date_released: 2014-03-26
+          3.1.1:
+            date_released: 2014-04-17
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-designate:
+    summary: Puppet module for Designate
+    development_focus: kilo
+
+    series:
+      icehouse:
+      juno:
+      kilo:
+      future:
+
+  puppet-glance:
+    summary: Puppet module for Glance
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.0.0:
+            date_released: 2013-06-26
+          2.1.0:
+            date_released: 2013-08-08
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0:
+            date_released: 2014-01-14
+          3.1.0:
+            date_released: 2014-03-26
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-heat:
+    summary: Puppet module for Heat
+    development_focus: kilo
+
+    series:
+      havana:
+        milestones:
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0-rc3:
+            date_released: 2014-01-17
+          3.0.0:
+            date_released: 2014-01-23
+          3.1.0:
+            date_released: 2014-03-26
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-horizon:
+    summary: Puppet module for Horizon
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.0.0:
+            date_released: 2013-06-26
+          2.1.0:
+            date_released: 2013-08-08
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0-rc3:
+            date_released: 2014-01-14
+          3.0.0:
+            date_released: 2014-01-17
+          3.0.1:
+            date_released: 2014-02-14
+          3.1.0:
+            date_released: 2014-03-26
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-ironic:
+    summary: Puppet module for Ironic
+    development_focus: kilo
+
+    series:
+      icehouse:
+      juno:
+      kilo:
+      future:
+
+  puppet-keystone:
+    summary: Puppet module for Keystone
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.0.0:
+            date_released: 2013-06-26
+          2.1.0:
+            date_released: 2013-08-08
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0-rc3:
+            date_released: 2014-01-14
+          3.0.0:
+            date_released: 2014-01-17
+          3.1.0:
+            date_released: 2014-03-26
+          3.1.1:
+            date_released: 2014-03-28
+          3.2.0:
+            date_released: 2014-04-17
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-neutron:
+    summary: Puppet module for Neutron
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.1.1:
+            date_released: 2013-08-08
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0:
+            date_released: 2014-01-14
+          3.1.0:
+            date_released: 2014-03-26
+          3.2.0:
+            date_released: 2014-03-28
+          3.3.0:
+            date_released: 2014-04-17
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-07-11
+          4.3.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-nova:
+    summary: Puppet module for Nova
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.0.0:
+            date_released: 2013-06-26
+          2.1.0:
+            date_released: 2013-08-08
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0:
+            date_released: 2014-01-14
+          3.1.0:
+            date_released: 2014-02-14
+          3.2.0:
+            date_released: 2014-03-26
+          3.2.1:
+            date_released: 2014-04-17
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+          4.2.0:
+            date_released: 2014-10-22
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-sahara:
+    summary: Puppet module for Sahara
+    development_focus: kilo
+
+    series:
+      kilo:
+      future:
+
+  puppet-swift:
+    summary: Puppet module for Swift
+    development_focus: kilo
+
+    series:
+      grizzly:
+        milestones:
+          2.0.0:
+            date_released: 2013-06-26
+          2.1.0:
+            date_released: 2013-08-13
+          2.2.0:
+            date_released: 2013-10-09
+      havana:
+        milestones:
+          3.0.0-rc1:
+            date_released: 2013-11-14
+          3.0.0-rc2:
+            date_released: 2013-12-20
+          3.0.0-rc3:
+            date_released: 2014-01-14
+          3.0.0-rc4:
+            date_released: 2014-02-04
+          3.0.0:
+            date_released: 2014-02-04
+      icehouse:
+        milestones:
+          4.0.0:
+            date_released: 2014-05-06
+          4.1.0:
+            date_released: 2014-06-20
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+        milestones:
+          6.0.0:
+      future:
+
+  puppet-tempest:
+    summary: Puppet module for Tempest
+    development_focus: kilo
+
+    series:
+      grizzly:
+      havana:
+        milestones:
+          3.0.0:
+            date_released: 2014-05-06
+      icehouse:
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+      kilo:
+      future:
+
+  puppet-trove:
+    summary: Puppet module for Trove
+    development_focus: kilo
+
+    series:
+      kilo:
+      future:

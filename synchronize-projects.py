@@ -44,6 +44,21 @@ for project_name, project in list(projects['projects'].items()):
         lp_series.status = project_all_series[series_name]['status']
         lp_series.lp_save()
 
+    # Sync series details
+    for lp_series in lp_project.series:
+        name = lp_series.name
+        if name not in project_all_series:
+            print '  WARNING: Unmanaged series found: %s' % name
+            continue
+        series = project_all_series[name]
+        # Active status
+        status = series.get('status', 'Active Development')
+        if lp_series.status != status:
+            print '  Updating status for series %s (%s)...' % (
+                  name, status)
+            lp_series.status = status
+            lp_series.lp_save()
+
     # Compute milestones
     project_all_milestones = {}
     for series_name, projet_series in list(project['series'].items()):

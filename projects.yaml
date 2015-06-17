@@ -8,11 +8,11 @@ series:
     summary: This is the "grizzly" series.
 
   havana:
-    status: Current Stable Release
+    status: Supported
     summary: This is the "havana" series.
 
   icehouse:
-    status: Current Stable Release
+    status: Supported
     summary: This is the "icehouse" series.
 
   juno:
@@ -201,6 +201,7 @@ projects:
     development_focus: kilo
 
     series:
+      grizzly:
       havana:
         milestones:
           3.0.0-rc2:

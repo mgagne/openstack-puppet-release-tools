@@ -72,20 +72,28 @@ for project_name, project in list(projects['projects'].items()):
             date_targeted=None,
             code_name=milestone_name)
 
-    # Sync milestone release
+    # Sync milestone details
     for lp_milestone in lp_project.all_milestones:
         name = lp_milestone.name
         if name not in project_all_milestones:
             print '  WARNING: Unmanaged milestone found: %s' % name
             continue
         milestone = project_all_milestones[name]
+        # Date released
         if 'date_released' in milestone:
             if not lp_milestone.release:
                 date_released = milestone['date_released'].strftime('%Y-%m-%d')
-                print 'Creating missing release for milestone %s (%s)...' % (
+                print '  Creating missing release for milestone %s (%s)...' % (
                     name, date_released)
                 lp_release = lp_milestone.createProductRelease(
                     date_released=date_released)
+        # Active status
+        is_active = milestone.get('is_active', False)
+        if lp_milestone.is_active != is_active:
+            print '  Updating active status for milestone %s (%s)...' % (
+                  name, is_active)
+            lp_milestone.is_active = is_active
+            lp_milestone.lp_save()
 
     # Development focus
     lp_focus = lp_project.development_focus

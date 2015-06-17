@@ -71,16 +71,20 @@ projects:
           4.2.0:
             date_released: 2014-10-22
           4.3.0:
+            is_active: true
       juno:
         milestones:
           5.0.0:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-cinder:
@@ -119,6 +123,7 @@ projects:
           4.2.0:
             date_released: 2014-10-22
           4.3.0:
+            is_active: true
       juno:
         milestones:
           5.0.0:
@@ -126,9 +131,11 @@ projects:
           5.1.0:
             date_released: 2015-06-17
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-designate:
@@ -173,16 +180,20 @@ projects:
           4.2.0:
             date_released: 2014-10-22
           4.3.0:
+            is_active: true
       juno:
         milestones:
           5.0.0:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-heat:
@@ -215,10 +226,13 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-horizon:
@@ -257,13 +271,16 @@ projects:
           4.2.0:
             date_released: 2014-10-22
           4.3.0:
+            is_active: true
       juno:
         milestones:
           5.0.0:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
@@ -323,10 +340,13 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-neutron:
@@ -371,10 +391,13 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-nova:
@@ -413,16 +436,20 @@ projects:
           4.2.0:
             date_released: 2014-10-22
           4.3.0:
+            is_active: true
       juno:
         milestones:
           5.0.0:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-openstacklib:
@@ -434,11 +461,14 @@ projects:
         milestones:
           5.0.0:
             date_released: 2014-11-25
+            is_active: true
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-sahara:
@@ -447,6 +477,9 @@ projects:
 
     series:
       kilo:
+        milestones:
+          6.0.0:
+            is_active: true
       future:
 
   puppet-swift:
@@ -481,16 +514,20 @@ projects:
           4.1.0:
             date_released: 2014-06-20
           4.2.0:
+            is_active: true
       juno:
         milestones:
           5.0.0:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
         milestones:
           6.0.0:
+            is_active: true
       future:
 
   puppet-tempest:
@@ -510,7 +547,9 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
+            is_active: true
           5.2.0:
+            is_active: true
       kilo:
       future:
 
@@ -520,4 +559,7 @@ projects:
 
     series:
       kilo:
+        milestones:
+          6.0.0:
+            is_active: true
       future:

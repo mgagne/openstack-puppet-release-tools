@@ -10,6 +10,10 @@ parser = argparse.ArgumentParser(description='Synchronize projects on LP')
 parser.add_argument('--config',
                     help='YAML file with projects definitions',
                     default='projects.yaml')
+parser.add_argument('--close-bugs',
+                    action='store_true',
+                    help='Close bugs for released milestones',
+                    default=False)
 args = parser.parse_args()
 
 with open(args.config, 'r') as f:
@@ -118,3 +122,18 @@ for project_name, project in list(projects['projects'].items()):
         lp_focus = lp_project.getSeries(name=project['development_focus'])
         lp_project.development_focus = lp_focus
         lp_project.lp_save()
+
+    # Close fixed bugs for released milestones
+    if args.close_bugs:
+        for lp_milestone in lp_project.all_milestones:
+            if not lp_milestone.release:
+                continue
+            lp_tasks = lp_milestone.searchTasks(
+                omit_targeted=False, status='Fix Committed')
+            if lp_tasks:
+                name = lp_milestone.name
+                print '  Closing bugs for released milestone: %s' % name
+                for lp_task in lp_tasks:
+                    print '    Closing bug %s...' % lp_task.bug.id
+                    lp_task.status = 'Fix Released'
+                    lp_task.lp_save()

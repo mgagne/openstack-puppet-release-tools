@@ -20,8 +20,12 @@ series:
     summary: This is the "juno" series.
 
   kilo:
-    status: Active Development
+    status: Current Stable Release
     summary: This is the "kilo" series.
+
+  liberty:
+    status: Active Development
+    summary: This is the "liberty" series.
 
   future:
     status: Future
@@ -84,6 +88,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -135,6 +146,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -146,6 +164,16 @@ projects:
       icehouse:
       juno:
       kilo:
+        milestones:
+          6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
       future:
 
   puppet-glance:
@@ -193,6 +221,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -233,6 +268,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -285,6 +327,14 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
       future:
 
   puppet-ironic:
@@ -295,6 +345,12 @@ projects:
       icehouse:
       juno:
       kilo:
+        milestones:
+          6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
       future:
 
   puppet-keystone:
@@ -347,6 +403,31 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
+  puppet-manila:
+    summary: Puppet module for Manila
+    development_focus: kilo
+
+    series:
+      kilo:
+        milestones:
+          6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -398,6 +479,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -450,6 +538,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -469,6 +564,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -480,6 +582,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -528,6 +637,13 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:
 
@@ -552,6 +668,16 @@ projects:
           5.2.0:
             is_active: true
       kilo:
+        milestones:
+          6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
       future:
 
   puppet-trove:
@@ -562,5 +688,30 @@ projects:
       kilo:
         milestones:
           6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
+  puppet-tuskar:
+    summary: Puppet module for Tuskar
+    development_focus: kilo
+
+    series:
+      kilo:
+        milestones:
+          6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
             is_active: true
       future:

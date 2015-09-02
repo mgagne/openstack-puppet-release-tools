@@ -39,7 +39,7 @@ series:
 projects:
   puppet-ceilometer:
     summary: Puppet module for Ceilometer
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -100,7 +100,7 @@ projects:
 
   puppet-cinder:
     summary: Puppet module for Cinder
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -158,7 +158,7 @@ projects:
 
   puppet-designate:
     summary: Puppet module for Designate
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       icehouse:
@@ -178,7 +178,7 @@ projects:
 
   puppet-glance:
     summary: Puppet module for Glance
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -233,7 +233,7 @@ projects:
 
   puppet-heat:
     summary: Puppet module for Heat
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -280,7 +280,7 @@ projects:
 
   puppet-horizon:
     summary: Puppet module for Horizon
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -339,7 +339,7 @@ projects:
 
   puppet-ironic:
     summary: Puppet module for Ironic
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       icehouse:
@@ -351,11 +351,15 @@ projects:
             is_active: true
           6.1.0:
             is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
       future:
 
   puppet-keystone:
     summary: Puppet module for Keystone
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -415,7 +419,7 @@ projects:
 
   puppet-manila:
     summary: Puppet module for Manila
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       kilo:
@@ -433,7 +437,7 @@ projects:
 
   puppet-neutron:
     summary: Puppet module for Neutron
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -491,7 +495,7 @@ projects:
 
   puppet-nova:
     summary: Puppet module for Nova
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -550,7 +554,7 @@ projects:
 
   puppet-openstacklib:
     summary: Puppet module for OpenStack libraries
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       juno:
@@ -576,7 +580,7 @@ projects:
 
   puppet-sahara:
     summary: Puppet module for Sahara
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       kilo:
@@ -594,7 +598,7 @@ projects:
 
   puppet-swift:
     summary: Puppet module for Swift
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -649,7 +653,7 @@ projects:
 
   puppet-tempest:
     summary: Puppet module for Tempest
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       grizzly:
@@ -682,7 +686,7 @@ projects:
 
   puppet-trove:
     summary: Puppet module for Trove
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       kilo:
@@ -700,7 +704,7 @@ projects:
 
   puppet-tuskar:
     summary: Puppet module for Tuskar
-    development_focus: kilo
+    development_focus: liberty
 
     series:
       kilo:

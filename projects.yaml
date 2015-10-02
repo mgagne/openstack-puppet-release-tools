@@ -82,8 +82,10 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
-            is_active: true
           5.2.0:
+            date_released: 2015-10-02
+            is_active: true
+          5.3.0:
             is_active: true
       kilo:
         milestones:
@@ -142,6 +144,9 @@ projects:
           5.1.0:
             date_released: 2015-06-17
           5.2.0:
+            date_released: 2015-10-02
+            is_active: true
+          5.3.0:
             is_active: true
       kilo:
         milestones:
@@ -215,8 +220,10 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
-            is_active: true
           5.2.0:
+            date_released: 2015-10-02
+            is_active: true
+          5.3.0:
             is_active: true
       kilo:
         milestones:
@@ -262,8 +269,10 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
-            is_active: true
           5.2.0:
+            date_released: 2015-10-02
+            is_active: true
+          5.3.0:
             is_active: true
       kilo:
         milestones:
@@ -401,8 +410,10 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
-            is_active: true
           5.2.0:
+            date_released: 2015-10-02
+            is_active: true
+          5.3.0:
             is_active: true
       kilo:
         milestones:
@@ -477,8 +488,10 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
-            is_active: true
           5.2.0:
+            date_released: 2015-10-02
+            is_active: true
+          5.3.0:
             is_active: true
       kilo:
         milestones:
@@ -536,8 +549,10 @@ projects:
             date_released: 2014-11-25
           5.1.0:
             date_released: 2015-06-17
-            is_active: true
           5.2.0:
+            date_released: 2015-10-02
+            is_active: true
+          5.3.0:
             is_active: true
       kilo:
         milestones:

@@ -93,6 +93,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -154,6 +157,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -174,6 +180,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -231,6 +240,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -280,6 +292,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -339,6 +354,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -359,6 +377,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -421,6 +442,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -439,6 +463,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -499,6 +526,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -560,6 +590,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -586,6 +619,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -604,6 +640,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -659,6 +698,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -692,6 +734,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:
@@ -710,6 +755,9 @@ projects:
             date_released: 2015-07-09
             is_active: true
           6.1.0:
+            date_released: 2015-10-10
+            is_active: true
+          6.2.0:
             is_active: true
       liberty:
         milestones:

@@ -37,6 +37,28 @@ series:
 #
 
 projects:
+  puppet-aodh:
+    summary: Puppet module for Aodh
+    development_focus: liberty
+
+    series:
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
+  puppet-barbican:
+    summary: Puppet module for Barbican
+    development_focus: liberty
+
+    series:
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
   puppet-ceilometer:
     summary: Puppet module for Ceilometer
     development_focus: liberty
@@ -244,6 +266,17 @@ projects:
             is_active: true
           6.2.0:
             is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
+  puppet-gnocchi:
+    summary: Puppet module for Gnocchi
+    development_focus: liberty
+
+    series:
       liberty:
         milestones:
           7.0.0:
@@ -473,6 +506,28 @@ projects:
             is_active: true
       future:
 
+  puppet-mistral:
+    summary: Puppet module for Mistral
+    development_focus: liberty
+
+    series:
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
+  puppet-murano:
+    summary: Puppet module for Murano
+    development_focus: liberty
+
+    series:
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
   puppet-neutron:
     summary: Puppet module for Neutron
     development_focus: liberty
@@ -629,6 +684,32 @@ projects:
             is_active: true
       future:
 
+  puppet-openstack-extras:
+    summary: Helper classes that utilize the core Puppet Openstack modules
+    development_focus: liberty
+
+    series:
+      juno:
+        milestones:
+          5.0.0:
+            date_released: 2014-11-25
+            is_active: true
+          5.1.0:
+            date_released: 2015-06-17
+            is_active: true
+      kilo:
+        milestones:
+          6.0.0:
+            date_released: 2015-07-09
+            is_active: true
+          6.1.0:
+            is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
   puppet-sahara:
     summary: Puppet module for Sahara
     development_focus: liberty
@@ -777,6 +858,59 @@ projects:
             is_active: true
           6.1.0:
             is_active: true
+      liberty:
+        milestones:
+          7.0.0:
+            is_active: true
+      future:
+
+  puppet-vswitch:
+    summary: Puppet module for Vswitch
+    development_focus: liberty
+
+    series:
+      grizzly:
+        milestones:
+          0.1.0:
+            is_active: false
+            date_released: 2012-11-02
+          0.2.0:
+            is_active: false
+            date_released: 2013-12-06
+      havana:
+        milestones:
+          0.3.0:
+            is_active: false
+            date_released: 2014-05-05
+      icehouse:
+        milestones:
+          1.0.0:
+            is_active: false
+            date_released: 2014-11-24
+      juno:
+        milestones:
+          1.1.0:
+            is_active: false
+            date_released: 2015-06-17
+      kilo:
+        milestones:
+          2.0.0:
+            is_active: true
+            date_released: 2015-07-09
+          2.1.0:
+            is_active: true
+            date_released: 2015-10-15
+      liberty:
+        milestones:
+          3.0.0:
+            is_active: true
+      future:
+
+  puppet-zaqar:
+    summary: Puppet module for Zaqar
+    development_focus: liberty
+
+    series:
       liberty:
         milestones:
           7.0.0:
